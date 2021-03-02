@@ -1,6 +1,6 @@
 {
   "name": "@cimacmillan/refunc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "State container with functions",
   "files": [
     "dist/**/*"
