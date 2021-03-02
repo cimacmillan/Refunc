@@ -1,6 +1,8 @@
 # Refunc
 Redux-like state container with actions as functions
 
+*By Callum Macmillan*
+
 ## Quick start
 
 ## Installing
