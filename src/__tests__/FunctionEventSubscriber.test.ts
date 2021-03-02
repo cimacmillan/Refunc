@@ -1,4 +1,4 @@
-import { FunctionEventSubscriber } from "../FunctionEventSubscriber";
+import { FunctionEventSubscriber } from "../FunctionSubscriber";
 
 describe("FunctionEventSubscriber", () => {
     test("can be called with no subscribers", () => {

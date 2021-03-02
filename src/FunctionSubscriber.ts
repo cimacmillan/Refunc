@@ -1,6 +1,6 @@
-type Callback = (...args: any) => void;
+import { ActionType, Callback } from "./Types";
 
-export class FunctionEventSubscriber<T extends {}> {
+export class FunctionEventSubscriber<T extends ActionType> {
     private listeners: Array<Partial<T>> = [];
     private compiledActions: T | undefined;
 
