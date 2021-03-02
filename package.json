@@ -1,6 +1,6 @@
 {
   "name": "@cimacmillan/refunc",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "State container with functions",
   "files": [
     "dist/**/*"
@@ -38,7 +38,5 @@
     "prettier": "^2.2.1",
     "typescript": "^4.1.3",
     "ts-jest": "^26.5.2"
-  },
-  "dependencies": {
   }
 }
