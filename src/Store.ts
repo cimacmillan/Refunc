@@ -1,5 +1,5 @@
 import { FunctionEventSubscriber } from "./FunctionSubscriber";
-import { ActionType, Callback, ReducerActions, ReducerActionType, ReducerDefinition } from "./Types";
+import { ActionType, Callback, ReducerActions, ReducerActionType, Reducer } from "./Types";
 
 function mapEmptyActionsToCallback(
     actions: ActionType,
@@ -34,7 +34,7 @@ export class Store<State, Actions extends ActionType> {
     private state: State;
 
     public constructor(
-        reducer: ReducerDefinition<State, Actions>,
+        reducer: Reducer<State, Actions>,
         emptyActions: Actions
     ) {
         this.state = reducer.state;

@@ -12,7 +12,7 @@ export type ReducerActions<State, Actions extends ActionType> = {
 
 export type ReducerActionType<State, Actions extends ActionType> = Partial<ReducerActions<State, Actions>>;
 
-export interface ReducerDefinition<State, Actions extends ActionType> {
+export interface Reducer<State, Actions extends ActionType> {
     state: State;
     actions: Partial<ReducerActions<State, Actions>>;
 }
